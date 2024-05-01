@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  padding: 2rem;
+}
+
+nav {
+  width: 300px;
+}
+
+nav > ul {
+  display: flex;
+
+  list-style-type: none;
+  list-style-position: inside;
+
+  padding-left: 0;
+  gap: 2.5rem;
+}
+
+section {
+  width: 320px;
+}
