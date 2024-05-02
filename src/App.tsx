@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Link, Navigate, Route, Routes } from 'react-router-dom'
 
 import './App.css'
 import { PalettePage, TimerPage } from './pages'
@@ -19,6 +19,15 @@ function App() {
 
 			<main>
 				<Routes>
+					<Route
+						path='/'
+						element={
+							<Navigate
+								replace
+								to='/timer'
+							/>
+						}
+					/>
 					<Route
 						path='/timer'
 						element={<TimerPage />}
