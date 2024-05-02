@@ -1,7 +1,7 @@
-import { Timer } from "../components/Timer/Timer";
+import { Timer } from '../components/Timer/Timer'
 
 export const TimerPage = () => (
-  <>
-    <Timer />
-  </>
-);
+	<>
+		<Timer />
+	</>
+)

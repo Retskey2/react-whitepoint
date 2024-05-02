@@ -1,7 +1,7 @@
-import { Palette } from "../components/Palette/Palette";
+import { Palette } from '../components/Palette/Palette'
 
 export const PalettePage = () => (
-  <>
-    <Palette />
-  </>
-);
+	<>
+		<Palette />
+	</>
+)

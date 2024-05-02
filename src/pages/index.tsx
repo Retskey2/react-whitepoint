@@ -1,2 +1,2 @@
-export * from "./TimerPage";
-export * from "./PalettePage";
+export * from './TimerPage'
+export * from './PalettePage'
